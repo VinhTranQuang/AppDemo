@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.android.example.mvvm.api.response"
+        applicationId "com.android.example.mvvm"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -48,5 +48,7 @@ android {
         implementation 'com.android.support:appcompat-v7:28.0.0-alpha3'
         //noinspection GradleCompatible
         implementation 'com.android.support:design:28.0.0-alpha3'
+//        implementation 'com.facebook.android:facebook-android-sdk:4.6.0'
+        implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
     }
 }

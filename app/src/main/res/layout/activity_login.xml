@@ -63,5 +63,11 @@
             android:gravity="center"
             android:textSize="16dip"/>
 
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_fbutton"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+
     </LinearLayout>
 </ScrollView>
